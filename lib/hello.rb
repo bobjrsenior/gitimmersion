@@ -1,5 +1,5 @@
 #Default is "World"
 #Author: Ryan C (email)
-name = ARGV.first || "World"
+name = ARGV.first || "World"i
 
-puts "Hello, #{name}!"
+puts "Hello, #{ARGV.first}!"
